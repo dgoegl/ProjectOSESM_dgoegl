@@ -1,15 +1,21 @@
 # ProjectOSESM_dgoegl
 
-# Temperature Converter - Python Utility
+Copyright 2025 David Gögl
 
-## Overview
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Python-based temperature conversion utility that allows conversion between Celsius, Fahrenheit, and Kelvin. The project follows best coding practices, includes automated testing, and integrates continuous integration (CI) for quality assurance.
+This is under an MIT license
+This is a live demo repository for the course OSESM
 
-## Features
+# Description:
+This repository contains Homework 1 for the Open-Source Energy System Modelling course.
 
-- Convert Celsius to Fahrenheit
-- Convert Fahrenheit to Celsius
-- Convert Celsius to Kelvin
-- Fully tested with `pytest`
-- Automated testing using GitHub Actions
+The objective is to set up a new GitHub repository and gain hands-on experience with GitHub workflows.
+
+The utils.py file provides three temperature conversion functions:
+
+- celsius_to_fahrenheit – Converts a temperature from Celsius to Fahrenheit.
+- fahrenheit_to_celsius – Converts a temperature from Fahrenheit to Celsius.
+- celsius_to_kelvin – Converts a temperature from Celsius to Kelvin.
+
+Each function is documented with a clear description of its purpose and usage.
