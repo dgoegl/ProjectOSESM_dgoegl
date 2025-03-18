@@ -21,7 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pytest
+          pip install ruff
 
-      - name: Run tests
+      - name: Run tests with pytest
         run: |
           PYTHONPATH=src pytest tests/
+
+      - name: Run Ruff for code formatting
+        run: |
+          ruff format --check .
+
