@@ -33,7 +33,8 @@ def celsius_to_kelvin(celsius):
     return celsius + 273.15
 
 if __name__ == "__main__":
-    temp_c = 30
+
+    temp_c = float(input("What number in Celsius would you liek to convert kind sir?"))
     temp_f = celsius_to_fahrenheit(temp_c)
     temp_k = celsius_to_kelvin(temp_c)
 
